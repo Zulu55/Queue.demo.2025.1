@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueArray", "QueueArray\QueueArray.csproj", "{FE376DEF-ADB6-424A-BB7F-83FE188DDF60}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queues.UI.Console", "Queues.UI.Console\Queues.UI.Console.csproj", "{47CF4F0C-FD25-4FF1-9BFC-C54B8C0775AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueList", "QueueList\QueueList.csproj", "{A0235D8F-BA2F-421B-948D-D974FBC2B8B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,15 @@ Global
 		{47CF4F0C-FD25-4FF1-9BFC-C54B8C0775AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47CF4F0C-FD25-4FF1-9BFC-C54B8C0775AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47CF4F0C-FD25-4FF1-9BFC-C54B8C0775AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0235D8F-BA2F-421B-948D-D974FBC2B8B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0235D8F-BA2F-421B-948D-D974FBC2B8B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0235D8F-BA2F-421B-948D-D974FBC2B8B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0235D8F-BA2F-421B-948D-D974FBC2B8B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ADE86CF1-9CD8-4D83-83BE-18CEDB6250BF}
 	EndGlobalSection
 EndGlobal

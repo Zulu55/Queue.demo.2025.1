@@ -1,6 +1,15 @@
 ﻿using QueueArray;
+using QueueList;
 
-var queue = new QueueUsingArray<int>(5);
+//1. Using an array
+//var queue = new QueueUsingArray<int>(5);
+
+//2. Using a list
+//var queue = new QueueUsingList<int>(); // In theory is "infinite"
+
+//3. Using a generic queue
+var queue = new Queue<int>(); // In theory is "infinite"
+
 var opc = "0";
 do
 {
